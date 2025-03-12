@@ -9,8 +9,8 @@ func main() {
         r := gin.Default()
         r.GET("ping", func(c *gin.Context){
                 c.JSON(http.StatusOK, gin.H{
-                        "message":"hihellohihi",
-                })
+                        "message":"hhellohihi",
+                }
         })
         r.Run(":9000")
 }
